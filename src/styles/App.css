@@ -28,8 +28,14 @@
   color: white;
 }
 
+.communicate-text {
+  font-size: 18px;
+  color: white;
+}
+
 .gradient-text {
-  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  /* background: -webkit-linear-gradient(left, #5ee7df 30%, #b490ca 60%); */
+  background: -webkit-linear-gradient(left, #b721ff 30%, #21d4fd 60%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -49,13 +55,13 @@
 }
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background: -webkit-linear-gradient(left, #b721ff, #21d4fd);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background: -webkit-linear-gradient(left, #b721ff, #21d4fd);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-right: 15px;
@@ -83,10 +89,16 @@
   height: 35px;
 }
 
+.rarible-logo {
+  width: 40px;
+  height: 40px;
+}
+
 .footer-text {
   color: white;
   font-size: 16px;
   font-weight: bold;
+  margin-right: 15px;
 }
 
 /* KeyFrames */
